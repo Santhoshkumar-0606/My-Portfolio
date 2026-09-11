@@ -108,7 +108,7 @@ whatsappForm.addEventListener('submit', function(e) {
     const whatsappMessage = `*New Message From Portfolio*%0A%0A*Name:* ${name}%0A*Email:* ${email}%0A*Subject:* ${subject}%0A*Message:* ${message}%0A%0A`;
     
     // Your WhatsApp number (with country code, without +)
-    const phoneNumber = '919710209871'; // Replace with your number if different
+    const phoneNumber = '917904877430'; // Replace with your number if different
     
     // Create WhatsApp URL
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${whatsappMessage}`;
@@ -134,6 +134,6 @@ whatsappForm.addEventListener('submit', function(e) {
 function openWhatsApp() {
     const defaultMessage = "Hi Santhoshkumar, I visited your portfolio and would like to connect with you.";
     const encodedMessage = encodeURIComponent(defaultMessage);
-    const whatsappUrl = `https://wa.me/919710209871?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/917904877430?text=${encodedMessage}`;
     window.open(whatsappUrl, '_blank');
 }
